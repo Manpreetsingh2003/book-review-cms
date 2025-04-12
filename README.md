@@ -1,9 +1,18 @@
-# Sanity Clean Content Studio
+# Book Review Web Backend
 
-Congratulations, you have now installed the Sanity Content Studio, an open-source real-time content editing environment connected to the Sanity backend.
+This is a backend code of book review web application that store book reviews.
 
-Now you can do the following things:
+## Features of our web app
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+- **Search:** Allows users to search for books by title.
+- **Book Details:** Displays detailed information about the selected book.
+- **Rating:** Shows a rating system from 1 to 5 stars.
+- **Responsive UI:** The layout adapts to different screen sizes, ensuring a good user experience on both desktop and mobile devices.
+  
+## Technologies Used for web app
+
+- **Vue.js**: JavaScript framework for building the user interface.
+- **Vue Router**: For navigating between different pages in the app.
+- **Naive UI**: A UI library for Vue.js to create a modern and clean design.
+- **Sanity.io**: A headless CMS used to manage and fetch book data.
+- **Vite**: A fast build tool and development server for Vue.js projects.
